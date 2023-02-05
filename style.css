@@ -1,0 +1,102 @@
+.container-fluid {
+    padding: 0px;
+}
+
+.bordered {
+    background-color: #301E67;
+    border-radius: 30px 30px 0px 0px;
+    color: whitesmoke;
+}
+
+.title-margin {
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    display: inline;
+}
+
+
+.padded {
+    padding: 3% 5%;
+}
+
+.btn-primary {
+    background-color: #5B8FB9;
+    border: none;
+}
+
+/* TITLE SECTION */
+
+.title-text {
+    padding: 8% 3%;
+}
+
+
+/* EXPERIENCES SECTION */
+
+
+.exp-card {
+    background-color: #ffffff;
+    color: black;
+    margin: 30px 200px 45px 200px;
+    padding-bottom: 20px;
+}
+
+.card-body {
+    padding: 10px 50px;
+}
+
+
+
+
+/* PROEJECTS SECTION */
+
+.card-margin {
+    margin: 20px 0px;
+}
+
+.card-icon {
+    margin: 0 auto 0 auto;
+}
+
+.img-project {
+    width: 95%;
+    margin: 20px;
+    border-radius: 12px;
+    border: whitesmoke 1px solid;
+}
+
+/* CONTACT SECTION */
+.section-content {
+    padding: 0px 65px;
+}
+
+.contact-icons {
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(22deg) brightness(114%) contrast(104%);
+    margin: 50px 50px 0 50px;
+}
+
+.contact-footer {
+    text-align: center;
+}
+
+
+.contact-icons:hover {
+    filter: invert(98%) sepia(6%) saturate(1543%) hue-rotate(83deg) brightness(93%) contrast(98%);
+}
+
+.btn-center {
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+
+.btn-github {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

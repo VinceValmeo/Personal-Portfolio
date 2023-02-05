@@ -1,99 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tester</title>
-    <link rel="stylesheet" href="/style.css">
-
-    <style>
-        body {
-
-            background-color: aquamarine;
-        }
-
-        hr {
-            border-style: none;
-            color: lightgrey;
-            border-style: dotted none none none;
-            width: 10%;
-            border-width: 10px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vince Valmeo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <table cellspacing="10">
-        <tr>
-            <td><img src="/img/Valmeo.png" alt="Vince Picture" style="width: 90px; border-radius: 50%;"></td>
-            <td>
-                <h1>Vince Valmeo</h1>
-                <p>A Computer Science student at <a href="https://www.ust.com"> University of Santo Tomas</a></p>
-            </td>
-        </tr>
-    </table>
 
-    <hr>
+    <div class="container-fluid">
 
-    <h3>Favorite things in Life</h3>
-    <ul>
-        <li>Learning</li>
-        <li>Exercising</li>
-    </ul>
-    <hr>
-    <h3>Educational Background</h3>
 
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Educational Institution</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2007 - 2017</td>
-            <td>Sto. Nino Academy</td>
-        </tr>
-        <tr>
-            <td>2017 - 2019</td>
-            <td>PATTS College of Aeronautics</td>
-        </tr>
-        <tr>
-            <td>2019 - Present</td>
-            <td>University of Santo Tomas</td>
+        <section class="title-section padded">
+            <div class="title-text">
+                <h1>👋 Hello, world!</h1>
+                <h2> I am Vince</h2>
 
-        </tr>
+                <h3>an aspiring software developer</h3>
 
-    </table>
 
-    <hr>
-    <h3>Skills and Expertise</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Editing</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Coding</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-
-            </td>
-    </table>
-    <hr>
-
-    <h3>Contact me</h3>
-    <a href="/about.html">About page</a>
-    <a href="/Contact.html">Contacts</a>
+            </div>
 
 
 
+
+
+        </section>
+
+        <section class="experiences-section bordered padded">
+            <h1>🎒 Experieces</h1>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card exp-card">
+                            <div class="card-icon">
+                                <lord-icon src="https://cdn.lordicon.com/qpngwhqi.json" trigger="hover"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UST CICS COMELEC Deputy</h5>
+                                <p class="card-text"><small class="text-muted">UST CICS Commission on Elections, España
+                                        Blvd, Sampaloc, Manila <em>(2022 – 2023)
+                                        </em></small>
+                                </p>
+                                <p class="card-text">⚫ Disseminates information about upcoming
+                                    elections and various events.
+                                </p>
+                                <div class="card-text">⚫ Aided the facilitation of election for the student council of
+                                    College of Information and Computing Sciences
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <div class="card exp-card">
+                            <div class="card-icon">
+                                <lord-icon src="https://cdn.lordicon.com/tqywkdcz.json" trigger="hover"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">3rd Place in Stanford IT Learning’s Software Solutions</h5>
+                                <p class="card-text"><small class="text-muted">UP Engineering Radio Guild and Synergy,
+                                        Zoom Meeting <em>(2021 – 2022)
+                                        </em></small>
+                                </p>
+                                <p class="card-text">⚫ Designed a system for the challenge statement ”Mental health
+                                    management platform to support individuals
+                                    suffering from mental health disorder”.
+
+                                </p>
+                                <div class="card-text">⚫ Contributed to the creation of digital assets and contributed
+                                    to the conceptualization of the system.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="carousel-item">
+                        <div class="card exp-card">
+                            <div class="card-icon">
+                                <lord-icon src="https://cdn.lordicon.com/bxxnzvfm.json" trigger="hover"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CSS Academics Committee</h5>
+                                <p class="card-text"><small class="text-muted">UST Computer Science Society, España
+                                        Blvd, Sampaloc, Manila <em>(2022 – 2023)
+
+                                        </em></small>
+                                </p>
+                                <p class="card-text">⚫ Contributed to the creation of academic-related materials to ease
+                                    students’ stress.
+
+
+                                </p>
+                                <div class="card-text">⚫ Created coding problems for the UST Computer Science Society
+                                    Facebook page
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="carousel-item">
+                        <div class="card exp-card">
+                            <div class="card-icon">
+                                <lord-icon src="https://cdn.lordicon.com/jbbomxhd.json" trigger="hover"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CNAG Creatives Committee</h5>
+                                <p class="card-text"><small class="text-muted">UST Cisco Networking Academy Gateway
+                                        (CNAG), España
+                                        Blvd, Sampaloc, Manila <em>(2021 – 2022)
+
+                                        </em></small>
+                                </p>
+                                <p class="card-text">⚫ Created creative publication materials for the social media
+                                    account of the organization
+
+
+                                </p>
+                                <div class="card-text">⚫ Performs with flexibility by using multiple software as needed
+                                    i.e., Canva and Adobe Illustrator
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="card exp-card">
+                            <div class="card-icon">
+                                <lord-icon src="https://cdn.lordicon.com/secxpvll.json" trigger="hover"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CNAG Communications Committee</h5>
+                                <p class="card-text"><small class="text-muted">UST Cisco Networking Academy Gateway
+                                        (CNAG), España
+                                        Blvd, Sampaloc, Manila <em>(2022 – 2023)
+
+                                        </em></small>
+                                </p>
+                                <p class="card-text">⚫ Effectively communicates and Created scripts for events.
+
+
+                                </p>
+                                <div class="card-text">⚫ Emcee for the General Assembly 2022, ”CNAGKAISA: Be United as
+                                    One”. December 10, 2022
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects-section padded">
+            <h1 class="project-title">⚙️ Projects</h1>
+
+
+            <div class="section-content">
+                <div class="row">
+
+                    <!-- WEB PROJECTS  -->
+                    <div class="col-lg-4 col-md-6 card-margin">
+                        <div class="card">
+                            <div class="card-icon">
+                                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                <lord-icon src="https://cdn.lordicon.com/isltkuht.json" trigger="hover" delay="2000"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Wonderful Web Projects</h5>
+                                <p class="card-text">Websites are like the pages of the internet. Toggether let's
+                                    witness the unfolding of the pages I and the team made.
+                                </p>
+                                <a href="./Project Pages/web-projects.html" class="btn btn-primary btn-center">See
+                                    Web Projects</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FLUTTER PROJECTS  -->
+
+                    <div class=" col-lg-4 col-md-6 card-margin ">
+                        <div class="card">
+                            <div class="card-icon">
+                                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                <lord-icon src="https://cdn.lordicon.com/fsapdops.json" trigger="hover" delay="1500"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Amazing Flutter Projects</h5>
+                                <p class="card-text">Flutter is a framework made by Google for cross-platform
+                                    development. Want to learn more? Click the the button below.
+                                </p>
+                                <a href="./Project Pages/flutter-projects.html" class="btn btn-primary btn-center">See
+                                    Flutter Projects</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-12 card-margin">
+                        <div class="card">
+                            <div class="card-icon">
+                                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                <lord-icon src="https://cdn.lordicon.com/ubykurwv.json" trigger="hover" delay="2000"
+                                    style="width:250px;height:250px">
+                                </lord-icon>
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title">Astonishing Python Projects</h5>
+                                <p class="card-text">Python is an multi-purpose langauge with large pools of librarites.
+                                    Let's see in what purposes did
+                                    I made use of it.
+                                </p>
+                                <a href="./Project Pages/python-projects.html" class="btn btn-primary btn-center">See
+                                    Python Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="contact-section bordered padded">
+            <div class="contact-title">
+                <h1 class="title-margin">✉️ A message from you to me ...</h1>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <div class="section-content">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Type your message here"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-center">Send Email</button>
+            </div>
+
+
+
+            <footer class="contact-footer">
+                <a href="https://www.linkedin.com/in/vince-valmeo/"> <img src="./img/svg/linkedin.svg" alt="LinkedIn"
+                        srcset="" class="contact-icons"></a>
+
+                <a href="https://github.com/VinceValmeo"> <img src="./img/svg/square-github (1).svg"
+                        class="contact-icons" alt="" srcset=""></a>
+
+
+
+                <a href="https://www.youtube.com/channel/UCvldvaSMlPkaXcE-QXKOouQ"> <img
+                        src="./img/svg/square-youtube.svg" class="contact-icons" alt="" srcset=""></a>
+
+            </footer>
+
+
+
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
