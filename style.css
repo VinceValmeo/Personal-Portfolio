@@ -69,20 +69,56 @@
 .img-project {
     width: 95%;
     margin: 20px;
-    border-radius: 12px;
-    border: whitesmoke 1px solid;
+    border: rgb(206, 204, 204) 1px solid;
+    border-radius: 12px 12px 12px 12px;
+
 }
+
+.app-img {
+    display: block;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    transform: rotate(-20deg);
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-img {
+        display: block;
+        width: 20%;
+        margin: 0 auto 0 auto;
+        transform: rotate(0deg);
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+}
+
+
 
 /* CONTACT SECTION */
 .section-content {
-    padding: 0px 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact-me {
+    display: inline-block;
+    background-color: white;
+    color: #301E67;
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin: 30px;
 }
 
 .contact-icons {
     width: 30px;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(22deg) brightness(114%) contrast(104%);
-    margin: 50px 50px 0 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    margin: 12px;
+
+
+
 }
 
 .contact-footer {
@@ -90,9 +126,12 @@
 }
 
 
+
 .contact-icons:hover {
     filter: invert(98%) sepia(6%) saturate(1543%) hue-rotate(83deg) brightness(93%) contrast(98%);
 }
+
+
 
 .btn-center {
     display: block;
