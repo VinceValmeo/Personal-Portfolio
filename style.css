@@ -8,10 +8,6 @@
     color: whitesmoke;
 }
 
-.title-margin {
-    margin-bottom: 20px;
-}
-
 .header-logo {
     display: inline;
 }
@@ -29,7 +25,11 @@
 /* TITLE SECTION */
 
 .title-text {
-    padding: 8% 3%;
+    margin: 25% 10% 0% 30%;
+}
+
+.profile-picture {
+    width: 90%;
 }
 
 
