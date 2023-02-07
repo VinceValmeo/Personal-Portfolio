@@ -6,3 +6,7 @@ var typingEffect = new Typed(".multi-text", {
     startDelay: 1000,
     backDelay: 1500
 });
+
+$(".profile-picture").animate({
+    opacity: 1,
+});

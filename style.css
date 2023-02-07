@@ -29,6 +29,7 @@
 
 .profile-picture {
     width: 90%;
+    opacity: 0;
 }
 
 .multi-text {
@@ -145,4 +146,8 @@
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.project-padding {
+    padding: 30px;
 }
